@@ -34,7 +34,7 @@ pada file config/config.php
 
 pada file config/database.php
 ```
-$autoload['libraries'] = array('database', 'form_validation', 'session');
+$autoload['libraries'] = array('database', 'session');
 $active_group = 'default';
 $query_builder = TRUE;
 
@@ -69,4 +69,4 @@ $route['translate_uri_dashes']  =  FALSE;
 ```
 
 **Implementasi :**
-Masukkan link http://localhost/Admin_PDAM/c_login/ untuk mulai menjalankan website
+Masukkan link http://localhost/Tugasweb-matkul-framework/admin/C_login/ untuk mulai menjalankan website
