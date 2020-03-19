@@ -20,7 +20,7 @@
                     </div>
                     <div class="form-group">
                         <label for="alamat"> Alamat Pelanggan : </label>
-                        <textarea name="alamat" class="form-control" id="alamat" cols="30" rows="6" placeholder="Masukkan Alamat Pelanggan"    required><?php echo $tb->alamat ?></textarea>
+                        <textarea name="alamat" class="form-control" id="alamat" cols="30" rows="6" placeholder="Masukkan Alamat Pelanggan" required><?php echo $tb->alamat ?></textarea>
                     </div>
                     <div class="form-group">
                         <label for="no_telepon"> No Telepon : </label>
