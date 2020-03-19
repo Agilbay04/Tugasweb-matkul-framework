@@ -28,7 +28,7 @@ pada file config/autoload.php
 pada file config/config.php
 ```
 	defined('BASEPATH')  OR  exit('No direct script access allowed');
-	$config['base_url']  =  'http://localhost/tugasweb/';
+	$config['base_url']  =  'http://localhost/Tugasweb-matkul-framework/admin/C_login/';
 	$config['index_page']  =  ''; //dikosongkan karena kita sudah menggunakan .htaccess untuk menghilangkan index.php untuk penulisan url lebih mudah
 ```
 
@@ -43,7 +43,7 @@ $db['default'] = array(
 	'hostname' => 'localhost',
 	'username' => 'root',
 	'password' => '',
-	'database' => 'pdam', //nama database
+	'database' => 'dbperiksa', //nama database
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
@@ -63,7 +63,7 @@ $db['default'] = array(
 
 pada file config/routes.php
 ```
-$route['default_controller']  =  'c_login';  //kontroller default
+$route['default_controller']  =  'C_login';  //kontroller default
 $route['404_override']  =  '';
 $route['translate_uri_dashes']  =  FALSE;
 ```
